@@ -1,7 +1,27 @@
 aid: menten-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/menten-ai.png
 name: Menten AI
-description: Menten AI is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Menten AI is a biotechnology company pioneering generative AI for peptide
+  drug design. Its MAUD 1.0 platform designs peptide macrocycles de novo for
+  complex, previously undruggable targets by combining generative AI with
+  physics-based models and quantum simulations, reporting nanomolar potency,
+  oral bioavailability, cell permeability, and a greater-than-90% hit rate. The
+  company operates through enterprise partnerships with pharmaceutical
+  organizations rather than a public developer platform, and at the time of this
+  profile publishes no public API, SDK, or developer documentation. Surfaced as
+  a portfolio company of Uncork Capital and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/menten-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Generative AI
+- Peptides
+- Machine Learning
+- Life Sciences
+- Quantum Simulation
 apis: []
+common:
+- type: Website
+  url: https://menten.ai
+- type: About
+  url: https://menten.ai/about
+- type: Technology
+  url: https://menten.ai/technology
+- type: Blog
+  url: https://menten.ai/news
+- type: PrivacyPolicy
+  url: https://menten.ai/privacy-policy
+- type: DomainSecurity
+  url: security/menten-ai-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
