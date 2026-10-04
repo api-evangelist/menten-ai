@@ -49,7 +49,7 @@ tags:
 - Drug Discovery
 - Generative AI
 - Peptides
-- Machine-Learning
+- Machine Learning
 - Life Sciences
 - Quantum Simulation
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Life Sciences
 - Quantum Simulation
+- Machine-Learning
 apis: []
 common:
 - type: Website
